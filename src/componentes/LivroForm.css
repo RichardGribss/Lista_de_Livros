@@ -1,0 +1,26 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: none;
+    padding: 8px 5px;
+    margin: 8px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    width: '100%';
+    border: 1px solid #ddd;
+}
+.enviar{
+    margin-top: 2px;
+    background-color: #333974;
+    color: #FFF;
+    border-radius: 8px;
+    padding: 8px;
+    border: none;
+    margin-inline: 5px;
+}
+.enviar:hover{
+    background-color: #41488e;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.livro{
+  background-color: #FFF;
+  padding: 15px;
+  margin: 17px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.remove{
+  color: red;
+  border: none;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: bold;
+  background-color: #FFF;
+}
+.lido{
+  border: none;
+  color: #FFF;
+  background-color: #40dd72;
+  padding: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.lido:hover{
+  background-color: #35eb6e;
+}
+.nolido{
+  border: none;
+  color: #FFF;
+  background-color: #f4674e;
+  padding: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.nolido:hover{
+  background-color: #f6573b;
+}
